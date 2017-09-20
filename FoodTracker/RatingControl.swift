@@ -75,7 +75,7 @@ class RatingControl: UIStackView {
             button.removeFromSuperview()
         }
         
-        // ratingButtons.removeAll()
+        ratingButtons.removeAll()
         
         // Load Button Images
         let bundle = Bundle(for: type(of: self))
